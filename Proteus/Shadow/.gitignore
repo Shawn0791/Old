@@ -1,0 +1,16 @@
+Intermediate/
+Saved/
+Binaries/
+Temp/
+Library/
+obj/
+.vs/
+
+*.csproj
+*.userprefs
+*.*sdf
+*.sln
+*.suo
+*.exe
+*.opendb
+*.log

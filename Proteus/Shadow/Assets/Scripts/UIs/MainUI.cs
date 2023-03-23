@@ -1,0 +1,58 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MainUI : MonoBehaviour
+{
+    public Transform[] m_Sorts;
+    public GameObject m_BtnDebug;
+    public Transform m_SoundList;
+    public DebugInfoPage m_DebugInfo { get; private set; }
+    //private InputBuildIn m_Input;
+
+    public void Init()
+    {
+        // m_Input = GetComponentInChildren<InputBuildIn>();
+        // m_Input.Init();
+        //InitDebugInfo();
+        transform.SetAsLastSibling();
+        // Canvas canvas = GetComponent<Canvas>();
+        // canvas.worldCamera = GameManager.Instance.m_MainGame.m_MainCamera;
+        // canvas.planeDistance = 1;
+
+        //m_Input.m_EscapeEvent += EscFunc;
+    }
+
+    private void EscFunc()
+    {
+        PopBase pop = Mgr_UI.Instance.GetPopPageTopUI();
+        if (pop != null && pop.gameObject.activeSelf)
+        {
+            pop.OnClose();
+            return;
+        }
+        if (Mgr_UI.Instance.m_CurWindow.m_UIName.Equals(UIName.UI_Game))
+        {
+            Mgr_UI.Instance.ToUI<UI_GameMenu>(UIName.UI_GameMenu);
+        }
+    }
+
+    private void InitDebugInfo()
+    {
+        GameObject Debuger = Mgr_AssetBundle.Instance.LoadAsset<GameObject>(ABTypes.prefab, "DebugPage");
+        Debug.Log(Debuger.name);
+        m_DebugInfo = Instantiate(Debuger).GetComponent<DebugInfoPage>();
+        m_DebugInfo.gameObject.SetActive(false);
+        m_DebugInfo.transform.SetParent(m_Sorts[2], false);
+        m_DebugInfo.transform.SetSiblingIndex(m_Sorts[2].childCount - 2);
+        m_DebugInfo.Init();
+        RectTransform DebugTrans = m_DebugInfo.GetComponent<RectTransform>();
+        DebugTrans.anchoredPosition = Vector2.zero;
+    }
+
+    public void OpenDebugInfo()
+    {
+        m_DebugInfo.gameObject.SetActive(true);
+        m_BtnDebug.SetActive(false);
+    }
+}

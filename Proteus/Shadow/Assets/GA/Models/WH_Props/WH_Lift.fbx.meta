@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: a68b4ae6cf46bf5478f2c7d57ee51010
+timeCreated: 1490128498
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: JNT_Lift_Platform
+    100002: JNT_Lift_Rope_01_01
+    100004: JNT_Lift_Rope_01_02
+    100006: JNT_Lift_Rope_01_03
+    100008: JNT_Lift_Rope_01_04
+    100010: JNT_Lift_Rope_01_05
+    100012: JNT_Lift_Rope_01_06
+    100014: JNT_Lift_Rope_01_07
+    100016: JNT_Lift_Rope_01_08
+    100018: JNT_Lift_Rope_01_09
+    100020: JNT_Lift_Rope_01_10
+    100022: JNT_Lift_Rope_01_11
+    100024: JNT_Lift_Rope_01_12
+    100026: JNT_Lift_Rope_01_13
+    100028: JNT_Lift_Rope_02_01
+    100030: JNT_Lift_Rope_02_02
+    100032: JNT_Lift_Rope_02_03
+    100034: JNT_Lift_Rope_02_04
+    100036: JNT_Lift_Rope_02_05
+    100038: JNT_Lift_Rope_02_06
+    100040: JNT_Lift_Rope_02_07
+    100042: JNT_Lift_Rope_02_08
+    100044: JNT_Lift_Rope_02_09
+    100046: JNT_Lift_Rope_02_10
+    100048: JNT_Lift_Rope_02_11
+    100050: JNT_Lift_Rope_02_12
+    100052: JNT_Lift_Rope_02_13
+    100054: JNT_Lift_Wheel
+    100056: Mesh
+    100058: Skeleton
+    100060: //RootNode
+    100062: WH_Lift_Platform
+    100064: WH_Lift_Support
+    100066: CTRL_Lift_Platform
+    100068: CTRL_Lift_Rope_01_01
+    100070: CTRL_Lift_Rope_01_02
+    100072: CTRL_Lift_Rope_01_03
+    100074: CTRL_Lift_Rope_01_04
+    100076: CTRL_Lift_Rope_02_01
+    100078: CTRL_Lift_Rope_02_02
+    100080: CTRL_Lift_Rope_02_03
+    100082: CTRL_Lift_Rope_02_04
+    100084: CTRL_Lift_Wheel
+    100086: Rigs
+    100088: WH_Lift_Platform 1
+    400000: JNT_Lift_Platform
+    400002: JNT_Lift_Rope_01_01
+    400004: JNT_Lift_Rope_01_02
+    400006: JNT_Lift_Rope_01_03
+    400008: JNT_Lift_Rope_01_04
+    400010: JNT_Lift_Rope_01_05
+    400012: JNT_Lift_Rope_01_06
+    400014: JNT_Lift_Rope_01_07
+    400016: JNT_Lift_Rope_01_08
+    400018: JNT_Lift_Rope_01_09
+    400020: JNT_Lift_Rope_01_10
+    400022: JNT_Lift_Rope_01_11
+    400024: JNT_Lift_Rope_01_12
+    400026: JNT_Lift_Rope_01_13
+    400028: JNT_Lift_Rope_02_01
+    400030: JNT_Lift_Rope_02_02
+    400032: JNT_Lift_Rope_02_03
+    400034: JNT_Lift_Rope_02_04
+    400036: JNT_Lift_Rope_02_05
+    400038: JNT_Lift_Rope_02_06
+    400040: JNT_Lift_Rope_02_07
+    400042: JNT_Lift_Rope_02_08
+    400044: JNT_Lift_Rope_02_09
+    400046: JNT_Lift_Rope_02_10
+    400048: JNT_Lift_Rope_02_11
+    400050: JNT_Lift_Rope_02_12
+    400052: JNT_Lift_Rope_02_13
+    400054: JNT_Lift_Wheel
+    400056: Mesh
+    400058: Skeleton
+    400060: //RootNode
+    400062: WH_Lift_Platform
+    400064: WH_Lift_Support
+    400066: CTRL_Lift_Platform
+    400068: CTRL_Lift_Rope_01_01
+    400070: CTRL_Lift_Rope_01_02
+    400072: CTRL_Lift_Rope_01_03
+    400074: CTRL_Lift_Rope_01_04
+    400076: CTRL_Lift_Rope_02_01
+    400078: CTRL_Lift_Rope_02_02
+    400080: CTRL_Lift_Rope_02_03
+    400082: CTRL_Lift_Rope_02_04
+    400084: CTRL_Lift_Wheel
+    400086: Rigs
+    400088: WH_Lift_Platform 1
+    2300000: WH_Lift_Support
+    3300000: WH_Lift_Support
+    4300000: WH_Lift_Support
+    4300002: WH_Lift_Platform
+    9500000: //RootNode
+    13700000: WH_Lift_Platform
+    13700002: WH_Lift_Platform 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 66
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
